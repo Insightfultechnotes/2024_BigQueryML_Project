@@ -18,4 +18,14 @@ BigQuery predictions_table
     ↓
 Looker Studio Dashboard
 
+## 🌟 Summary View (Easily Explain in Demo)
+
+Step                    Tool Used        	Purpose
+Data Load               BigQuery        	Store customer data
+Model Training	        BigQuery            ML	Build logistic regression churn model
+Prediction	            BigQuery            ML	Predict churn probability
+Storage	                BigQuery	        Save prediction results
+Visualization	        Looker Studio	    Build interactive churn dashboard
+Automation (Optional)	Scheduled Query	    Refresh predictions periodically
+
 
