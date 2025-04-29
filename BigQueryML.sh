@@ -1,3 +1,24 @@
+Create & Train ML Model (inside BigQuery)
+Use BigQuery ML to train the model:
+
+CREATE OR REPLACE MODEL `customer_churn_dataset.customer_churn_model`
+OPTIONS(
+  model_type="LOGISTIC_REG",
+  input_label_cols=['Churn']
+) AS
+SELECT
+  gender,
+  CAST(SeniorCitizen AS STRING) AS SeniorCitizen,
+  Partner,
+  Contract,
+  PaymentMethod,
+  tenure,
+  MonthlyCharges,
+  TotalCharges,
+  Churn
+FROM
+  `customer_churn_dataset.customer_data`;
+
 To Predict Churn on Customers, run a prediction query:
 
 SELECT
