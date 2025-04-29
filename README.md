@@ -9,3 +9,13 @@ What You Want To Achieve
 ✅ Store cleaned + enriched data back into BigQuery
 ✅ Visualize it later in Looker
 
+## Summary
+BigQuery customer_data
+    ↓
+(Dataflow pipeline) — Clean, predict, transform
+    ↓
+BigQuery predictions_table
+    ↓
+Looker Studio Dashboard
+
+
