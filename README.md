@@ -3,7 +3,7 @@
 I have used an open dataset like the Telco Customer Churn dataset (Kaggle).
     https://www.kaggle.com/blastchar/telco-customer-churn
 
-What You Want To Achieve
+What we Want To Achieve
 ✅ Ingest or prepare your customer data
 ✅ Predict churn risk (could call BigQuery ML model inside)
 ✅ Store cleaned + enriched data back into BigQuery
@@ -18,7 +18,7 @@ BigQuery predictions_table<br />
     ↓<br />
 Looker Studio Dashboard<br />
 
-## 🌟 Summary View (Easily Explain in Demo)
+## Summary Tabular View
 
 |Step|Tool Used|Purpose|
 | -----:| -----:| -----:|
