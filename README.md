@@ -10,22 +10,22 @@ What You Want To Achieve
 ✅ Visualize it later in Looker
 
 ## Summary
-BigQuery customer_data
-    ↓
-(Dataflow pipeline) — Clean, predict, transform
-    ↓
-BigQuery predictions_table
-    ↓
-Looker Studio Dashboard
+BigQuery customer_data<br />
+    ↓<br />
+(Dataflow pipeline) — Clean, predict, transform<br />
+    ↓<br />
+BigQuery predictions_table<br />
+    ↓<br />
+Looker Studio Dashboard<br />
 
 ## 🌟 Summary View (Easily Explain in Demo)
 
-Step	Tool Used	Purpose
-Data Load	BigQuery	Store customer data
-Model Training	BigQuery ML	Build logistic regression churn model
-Prediction	BigQuery ML	Predict churn probability
-Storage	BigQuery	Save prediction results
-Visualization	Looker Studio	Build interactive churn dashboard
-Automation (Optional)	Scheduled Query	Refresh predictions periodically
+|Step|Tool Used|Purpose|
+|Data Load|BigQuery|Store customer data|
+|Model Training|BigQuery ML|Build logistic regression churn model|
+|Prediction|BigQuery ML|Predict churn probability|
+|Storage|BigQuery|Save prediction results|
+|Visualization|Looker Studio|Build interactive churn dashboard|
+|Automation (Optional)|Scheduled Query|	Refresh predictions periodically|
 
 
