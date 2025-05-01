@@ -20,12 +20,13 @@ Looker Studio Dashboard<br />
 
 ## 🌟 Summary View (Easily Explain in Demo)
 
-|Step|Tool Used|Purpose|<br />
-|Data Load|BigQuery|Store customer data|<br />
-|Model Training|BigQuery ML|Build logistic regression churn model|<br />
-|Prediction|BigQuery ML|Predict churn probability|<br />
-|Storage|BigQuery|Save prediction results|<br />
-|Visualization|Looker Studio|Build interactive churn dashboard|<br />
-|Automation (Optional)|Scheduled Query|	Refresh predictions periodically|<br />
+|Step|Tool Used|Purpose|
+| -----:| -----:| -----:|
+|Data Load|BigQuery|Store customer data|
+|Model Training|BigQuery ML|Build logistic regression churn model|
+|Prediction|BigQuery ML|Predict churn probability|
+|Storage|BigQuery|Save prediction results|
+|Visualization|Looker Studio|Build interactive churn dashboard|
+|Automation (Optional)|Scheduled Query|	Refresh predictions periodically|
 
 
